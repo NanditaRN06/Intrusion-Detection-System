@@ -40,18 +40,18 @@ Generate certificates for SSL communication:
 openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout key.pem
 ```
 
-After generation, find out the fingerprint value of your certificate and put it in ```admin.py```
+After generating the certificate, find out the fingerprint value of your certificate and put it in ```admin.py```
 
-### 1. Start the Admin
-
-```bash
-python3 admin.py
-```
-
-### 2. Start the Server
+### 1. Start the Server
 
 ```bash
 python3 server.py
+```
+
+### 2. Start the Admin
+
+```bash
+python3 admin.py
 ```
 
 ### 3. Start a Client
