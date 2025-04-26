@@ -90,7 +90,3 @@ python3 client.py
 
 - Najmus Seher 
 - Nandita R Nadig
-
-## 📜 License
-
-This project is licensed under the MIT License.
